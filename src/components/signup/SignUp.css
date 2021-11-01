@@ -1,0 +1,16 @@
+.signUp_main_div{
+	background-color: blue;
+	height: 95vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signUp_form_div{
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40vw;
+	padding-bottom: 50px;
+}

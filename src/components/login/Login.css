@@ -1,0 +1,46 @@
+.main_login_div{
+	
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 95vh;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+.button_div{
+	width: 30vw;
+	display: flex;
+	
+	justify-content: space-between;
+}
+.form_button{
+background-color: silver;
+width: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30px;
+border-radius: 10px;
+
+}
+.form_div{
+	background-color: aqua;
+	padding: 50px 50px 50px 50px;
+
+}
+.login_heading{
+	text-align: center;
+}
+input{
+	width: 250px;
+	margin-bottom: 20px;
+	height: 30px;
+	border: 10px;
+	border-radius: 5px;
+	outline: none;
+	
+}
