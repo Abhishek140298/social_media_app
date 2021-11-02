@@ -1,0 +1,18 @@
+.main_navbar_div{
+	display: flex;
+	background-color: green;
+}
+.left_div{
+	display: flex;
+	background-color: aquamarine;
+}
+.search_bar_div{
+	background-color: blue;
+	
+}
+.right_div{
+	display: flex;
+	background-color: brown;
+	width: 100%;
+	justify-content: end;
+}

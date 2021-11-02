@@ -12,7 +12,7 @@ export default class App extends React.Component {
             exact
             path='/'
             render={() => {
-              return <Redirect to='/login' />;
+              return <Redirect to='/home' />;
             }}
           />
           <Route path='/login' render={()=>{return(<Login/>)}} />
