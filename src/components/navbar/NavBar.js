@@ -1,5 +1,6 @@
 import React from 'react';
-import './NavBar.css'
+import './NavBar.css';
+import { BsHouseDoor,BsPeopleFill,BsFillChatRightTextFill } from "react-icons/bs"
 
 const NavBar = () => {
   return (
@@ -11,9 +12,9 @@ const NavBar = () => {
         </div>
       </div>
       <div className='right_div'>
-        <h3>Home</h3>
-        <h3>Connection</h3>
-        <h3>Messages</h3>
+        <h3><BsHouseDoor/> Home</h3>
+        <h3><BsPeopleFill/>Connection</h3>
+        <h3><BsFillChatRightTextFill/>Messages</h3>
         <h3>Profile</h3>
       </div>
     </div>
