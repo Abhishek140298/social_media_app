@@ -1,10 +1,18 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './Login.css';
 import {Redirect} from 'react-router-dom';
 
 
 const Login = () => {
-
+  const [userName,setUserName]=useState('');
+  const [password,setPassword]=useState();
+  const setName=(e)=>{
+ setUserName(e.target.value);
+  }
+  const passwordSet=(e)=>{
+  setPassword(e.target.value)
+  }
+ console.log(userName,password);
   return (
     
     <div className='main_login_div'>
@@ -13,11 +21,11 @@ const Login = () => {
         <form>
           
           
-            <input placeholder='UserName' type='text' />
+            <input placeholder='UserName' type='text' onChange={setName} />
           
           
             
-            <input placeholder='Password' type='password' />
+            <input placeholder='Password' type='password' onChange={passwordSet} />
           
           <div className='button_div'>
             <span className='form_button' >Login</span>
