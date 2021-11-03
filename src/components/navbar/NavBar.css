@@ -8,6 +8,8 @@
 }
 .search_bar_div{
 	background-color: blue;
+	display: flex;
+	flex-direction: row;
 	
 }
 .right_div{
